@@ -1,0 +1,33 @@
+
+export class FormOne {
+     pretty:'';
+      beautiful:'';
+      glamorous:'';
+      blowout_pretty:'0';
+      downdo_pretty:'0';
+      updo_pretty:'0';
+      clipin_pretty:'0';
+      glammakeup_pretty:'0';
+      glambrush_pretty:'0';
+      touchup_pretty:'0';
+      glamtouch_pretty:'0';
+       blowout_beautiful:'0';
+      downdo_beautiful:'0';
+      updo_beautiful:'0';
+      clipin_beautiful:'0';
+      glammakeup_beautiful:'0';
+      glambrush_beautiful:'0';
+      touchup_beautiful:'0';
+      glamtouch_beautiful:'0';
+       blowout_glamorous:'0';
+      downdo_glamorous:'0';
+      updo_glamorous:'0';
+      clipin_glamorous:'0';
+      glammakeup_glamorous:'0';
+      glambrush_glamorous:'0';
+      touchup_glamorous:'0';
+      glamtouch_glamorous:'0';
+      totalamt_beautiful:'';
+      totalamt_pretty:'';
+      totalamt_glamorous:''
+}

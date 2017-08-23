@@ -1,0 +1,52 @@
+<div>
+    <nav class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button"  class="navbar-toggle"  (click)="toggleMove()"  >
+        <span class="icon-bar "></span>
+        <span class="icon-bar "></span>
+        <span class="icon-bar "></span> 
+         <span class="text">Menu</span> 
+      </button>
+    <a class="navbar-brand" href="#" title="beGlammed" >beGlammed</a>
+    </div>
+    <div    [@slideInOut]="state"  >
+      <ul id="menu-mobile-main-nav" class="nav navbar-nav   ">
+              <li  class="menu-item"><a href="#">Explore Styles</a></li>
+                <li  class="menu-item"><a href="#">Services</a></li>
+                <li  class="menu-item"><a href="#">Weddings</a></li>
+                <li  class="menu-item"><a href="/packages">Packages</a></li>
+                <li  class="menu-item"><a href="#">Gift cards</a></li>
+                <li  class="menu-item"><a href="/learnmore">ALLERGY FACE<sup>®</sup></a></li>
+                <li  class="menu-item"><a href="/about">About</a></li>
+                <li  class="menu-item"><a href="/about/contactus">Contact Us</a></li>
+                <li  class="menu-item"><a href="#"><strong>1-866-948-9645</strong></a></li>
+                <li  class="menu-item"><a href="#">Log In</a></li>
+         </ul>
+      </div>
+  
+      <div  class="navbar-collapse collapse  navbar-right"   >
+									
+	       	<ul id="menu-top-nav" class="nav navbar-nav  hidden-xs">
+               <li  class="menu-item"><a href="#">Explore Styles</a></li>
+                <li  class="menu-item"><a href="#">Services</a></li>
+                <li  class="menu-item"><a href="#">Weddings</a></li>
+                <li  class="menu-item"><a routerLink="/packages">Packages</a></li>
+                <li  class="menu-item"><a routerLink="/learnmore">ALLERGY FACE<sup>®</sup></a></li>
+                <li  class="menu-item"><a routerLink="/about">About</a></li>
+        </ul>
+       
+									<ul class="nav  ut hidden-xs" >
+                    
+										<li id="login"><a href="#">Log In</a></li>
+										<li><a href="#"><i class="glyphicon glyphicon-earphone"></i>1-866-948-9645</a></li>
+									</ul>
+
+									
+									
+
+					</div>
+    
+  </div>
+</nav>
+</div>

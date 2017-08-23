@@ -1,0 +1,123 @@
+
+section .card {
+  
+    background: white;
+    border: 1px solid #f9e6dd;
+}
+.main-content .card header {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.main-content .card header .overlay {
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+.main-content .card header .overlay h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    line-height: 260px;
+    margin: 0;
+    border: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.main-content .card article, .main-content .card .inner {
+    padding: 60px;
+}
+.contact .main-content .card article {
+    padding: 30px;
+}
+.about form .form-group {
+    margin-bottom: 20px;
+}
+form .form-group {
+    position: relative;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.contact .main-content .well {
+    background: #fdf6f3;
+    border-radius: 0;
+    padding: 20px;
+}
+
+.about .well {
+    padding-top: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+address {
+    display: block;
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.428571429;
+}
+.contact .main-content address span {
+    display: block;
+    margin-bottom: 8px;
+}
+.contact .main-content .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.contact .main-content .google-map iframe {
+    background: white;
+    padding: 6px;
+    position: absolute;
+    border: 1px solid #ddd !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.main-content .card input[type="submit"]:hover {
+    background: #52212a;
+}
+
+.about form .btn:hover {
+    background: #52212a;
+}
+
+.main-content .card input[type="submit"] {
+    display: block;
+    width: 100%;
+    background: #772F3C;
+    border: 1px solid #52212a;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 16px 40px;
+    line-height: 1;
+    height: auto;
+}
+
+.about form .btn {
+    display: block;
+    width: 100%;
+    background: #772F3C;
+    border: 1px solid #52212a;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 16px 40px;
+    line-height: 1;
+    height: auto;
+}

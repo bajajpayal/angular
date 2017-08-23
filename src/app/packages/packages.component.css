@@ -1,0 +1,321 @@
+section {
+    padding: 4em 0;
+}
+section .card {
+    background: white;
+    border: 1px solid #f9e6dd;
+}
+
+.main-content .card header {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.main-content .card header .overlay {
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+.main-content .card header .overlay h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    line-height: 260px;
+    margin: 0;
+    border: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+ul2 >.gfield_label {
+    font-weight: normal;
+    font-family: "montserratregular", sans-serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.gform_wrapper
+{
+    padding:8%;
+}
+.gform_wrapper ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+
+
+.gsection_title {
+border: none;
+font-weight: normal;
+font-family: "montserratregular", sans-serif;
+font-size: 25px;
+margin-bottom: 10px;
+margin-top:30px;
+}
+#field_1_1 label, #field_1_2 label, #field_1_13 >label {
+display:none !important;
+}
+.gfield_radio input {
+display:none !important;
+}
+#field_1_2 .gfield_radio label {
+display: inline-block !important;
+background: white;
+color: #4A4A4A;
+text-align: center;
+line-height: 55px;
+width: 75px;
+height: 55px;
+border-radius: 3px;
+border: 1px solid #d7d7d7;
+font-size: 18px;
+margin-bottom: 10px;
+}
+#field_1_2 .gfield_radio li:last-child label{
+width:auto;
+padding:0px 10px;
+}
+#field_1_2 .gfield_radio label:hover { 
+background: #772F3C;
+border-color: #772F3C;
+color: white;
+cursor: pointer;
+}
+#field_1_2 .gfield_radio input:checked + label {
+background: #772F3C;
+border-color: #772F3C;
+color: white;
+cursor: pointer;
+} 
+
+#field_1_2 .gfield_radio li {
+display:inline-block;margin-right:10px;margin-bottom:0px;
+}
+.gfield_description, #input_1_13_1_label, .ginput_card_expiration_container label, .ginput_cardinfo_right label, #input_1_13_5_label {
+font-size: 14px;
+font-weight: 100;
+font-family: "montserratlight";
+}
+.ginput_container input, .ginput_container select{
+height: 44px;
+border-radius: 3px;
+border: 1px solid #d7d7d7;
+color: #4A4A4A;
+font-size: 16px;
+}
+.gfield_label {
+font-size: 25px;
+font-weight: 100;
+font-family: "montserratlight";
+}
+#input_1_2 {
+margin-bottom:15px;
+}
+.ui-datepicker-trigger, .gform_card_icon_container, .ginput_card_security_code_icon {
+display:none;
+}
+.ginput_container .datepicker {
+background-image: url("https://www.beglammed.com/wp-content/themes/roiwp/library/images/calendar-icon.png");
+background-position: 98% center;
+background-size: 20px 21px;
+background-repeat: no-repeat;
+}
+.ginput_card_security_code {
+background-image: url("https://www.beglammed.com/wp-content/themes/roiwp/library/images/cvv.jpg");
+background-size: auto 20px;
+background-position: 98% center;
+background-repeat: no-repeat;
+}
+.ginput_card_expiration_month, .ginput_card_expiration_year{
+width:175px !important;
+display:inline-block;
+}
+#ui-datepicker-div {
+background:#f8f8f8;
+border-radius:5px;
+padding: 30px;
+}
+.ui-datepicker-calendar td {
+text-align: center;width:30px;
+height:30px;
+}
+a.ui-datepicker-next.ui-corner-all {
+float: right;
+}
+.ui-datepicker-title {
+margin:10px 0px;
+}
+.ui-datepicker-month {
+margin-right:10px;
+}
+.ginput_cardinfo_left {
+width:430px;
+float:left;
+}
+.ginput_cardinfo_right {
+float:left;width:198px;
+}
+.ginput_card_expiration_month {
+width:200px;
+float:left;
+margin-right:30px;
+}
+.ginput_card_expiration_year{
+width:200px !important;
+float:left;
+}
+.ginput_card_expiration_container label {
+width:100%;
+}
+span#input_1_13_2_container.ginput_full.ginput_cardextras {
+margin-top:15px;
+float:left;
+}
+span#input_1_13_5_container.ginput_full {
+width:100%;
+float:left;
+margin-top:15px;
+margin-bottom:15px;
+}
+#input_3_19.gfield_radio li {
+		float:left;width:100%;margin-bottom:5px;
+	}
+@media screen and (max-width: 400px) {
+#input_3_19.gfield_radio input {
+width: 80px;
+height: 30px;
+}
+li#field_3_22.gfield.field_sublabel_below.field_description_below {
+width:100% !important;
+}
+li#field_3_21.gfield.gfield_price.gfield_price_3_21.gfield_product_3_21.gfield_calculation.field_sublabel_below.field_description_below, li#field_3_12.gfield.gfield_price.gfield_price_3_.gfield_total.gfield_total_3_.field_sublabel_below.field_description_below {
+width:100% !important;
+}
+li#field_3_22.gfield.field_sublabel_below.field_description_below {
+width:100% !important;
+}
+li#field_3_22.gfield.field_sublabel_below.field_description_below {
+margin-top:0px !important;
+}
+input#gf_coupon_button.button {
+width: 28% !important;
+margin-left: 2% !important;
+}
+input#gf_coupon_code_3.gf_coupon_code {
+float: left;
+width: 70%;
+}
+}
+	#input_3_19.gfield_radio input {
+		display: block !important;
+float: right;
+width: 100px;
+height: 30px;
+background: #772F3C;
+border: none;
+border-radius:0px;
+appearance:none;
+-webkit-appearance: none;
+-moz-appearance:none;
+		margin-top:0px;
+		background:#772F3c url('https://www.beglammed.com/wp-content/uploads/2016/12/select.png');
+		background-size:100%;
+		background-position:center center;
+	}
+	#input_3_19.gfield_radio input:checked {
+		background:#fdf6f3 url('https://www.beglammed.com/wp-content/uploads/2016/12/select-black.png');
+		background-size:100%;
+		background-position:center center;
+	}
+	#input_3_19.gfield_radio label {
+		display: block !important;
+float: left;
+line-height:30px;margin-bottom:0px;font-size:14px;letter-spacing: -1px;
+	}
+#field_3_19 >.gfield_label {
+		font-weight: normal;
+font-family: "montserratregular", sans-serif;
+font-size: 16px;
+margin-bottom:0px;
+	}
+#field_3_19 {
+margin-bottom:0px;
+}
+ul#input_3_19.gfield_radio {
+margin-bottom:10px;
+}
+#input_3_6 {
+height:100px;
+}
+span#input_3_13_5_container.ginput_full {
+clear: both;
+width: 100%;
+display: block;
+}
+li#field_3_21.gfield.gfield_price.gfield_price_3_21.gfield_product_3_21.gfield_calculation.field_sublabel_below.field_description_below {
+float: left;
+width: 100%;
+}
+li#field_3_21.gfield.gfield_price.gfield_price_3_21.gfield_product_3_21.gfield_calculation.field_sublabel_below.field_description_below label {
+float:left;
+}
+div.ginput_container.ginput_container_product_calculation {
+float: left;
+margin-left: 20px;
+}
+span.ginput_product_price_label {
+display:none;
+}
+li#field_3_12.gfield.gfield_price.gfield_price_3_.gfield_total.gfield_total_3_.field_sublabel_below.field_description_below {
+float:left;
+width:100%;
+}
+li#field_3_12.gfield.gfield_price.gfield_price_3_.gfield_total.gfield_total_3_.field_sublabel_below.field_description_below label {
+float:left;
+}
+div.ginput_container.ginput_container_total {
+float:left;
+margin-left:86px;
+}
+li#field_3_21.gfield.gfield_price.gfield_price_3_21.gfield_product_3_21.gfield_calculation.field_sublabel_below.field_description_below, li#field_3_12.gfield.gfield_price.gfield_price_3_.gfield_total.gfield_total_3_.field_sublabel_below.field_description_below {
+width:50%;
+}
+li#field_3_12.gfield.gfield_price.gfield_price_3_.gfield_total.gfield_total_3_.field_sublabel_below.field_description_below {
+clear:both;
+}
+li#field_3_21.gfield.gfield_price.gfield_price_3_21.gfield_product_3_21.gfield_calculation.field_sublabel_below.field_description_below {
+margin-top:40px;
+}
+li#field_3_22.gfield.field_sublabel_below.field_description_below {
+float: right;
+clear: both;
+width: 50%;
+margin-top: -60px;
+}
+li#field_3_20.gfield.gfield_html.gfield_html_formatted.gfield_no_follows_desc.field_sublabel_below.field_description_below {
+clear:both;
+}
+#field_3_22>label {
+display:none !important;
+}
+input#gf_coupon_button.button {
+float: left;
+width: 90px;
+background: #52212a;
+border-color: #52212a;
+}
+input#gf_coupon_code_3.gf_coupon_code {
+float:left;
+}
+.ginput_container input[disabled] {
+border:#eee;
+}
+

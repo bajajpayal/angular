@@ -1,0 +1,422 @@
+
+.booking {
+  padding: 3em 0;
+  min-height: 580px;
+  position: relative; }
+ 
+.background {
+ 
+    background: #efe3ea url(/assets/images/andy-treatment4.jpg) 50% 20% no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.card {
+  background: white;
+  padding: 30px 30px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  box-shadow: -4px 4px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px; }
+  .card.step-1 form .form-group {
+    margin-bottom: 30px; }
+  .card form legend {
+    border: none;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: normal;
+    color: #454545; }
+  .card form .or {
+    display: block;
+    border-top: 1px dashed #dadada;
+    text-align: center;
+    position: relative;
+    margin: 30px 0; }
+    .card form .or span {
+      display: block;
+      position: absolute;
+      background: white;
+      top: -14px;
+      left: 50%;
+      margin-left: -15px;
+      font-size: 18px;
+      padding: 0 8px;
+      color: #777; }
+  .card form input[type="file"] {
+    margin: 20px 0; }
+  .card form .form-control {
+    padding: 6px 12px;
+    background: #f9f9f9;
+    border-radius: 2px; }
+    .card form .form-control.bootstrap-select {
+      background: transparent;
+      padding: 0; }
+  .card form .form-group {
+    overflow-x: hidden; }
+    .card form .form-group.error .form-control {
+      border-color: #ad4254;
+      border-radius: 4px 4px 0 0; }
+    .card form .form-group.hair {
+      margin-bottom: 40px;
+      overflow: hidden; }
+  .card form .first {
+    padding-right: 5px; }
+  .card form .last {
+    padding-left: 5px; }
+  .card form .radio {
+    margin: 0;
+    font-size: 15px; }
+    .card form .radio.box {
+      padding: 0 5px;
+      float: left;
+      width: 33%;
+      padding: 0 7px 0 0;
+      margin-bottom: 20px; }
+      .card form .radio.box:last-child {
+        padding: 0; }
+      .card form .radio.box.active, .card form .radio.box:hover {
+        cursor: pointer; }
+        .card form .radio.box.active label, .card form .radio.box:hover label {
+          background-color: #f7e7f0;
+          border: 1px solid #d1a5bf;
+          cursor: pointer; }
+      .card form .radio.box label {
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid #dadada;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        transition: 0.1s background ease-in-out; }
+        .card form .radio.box label em {
+          font-weight: normal;
+          display: block;
+          font-size: 17px;
+          font-style: normal; }
+        .card form .radio.box label input[type="radio"] {
+          display: none; }
+  .card form label {
+    display: block;
+    font-size: 15px; }
+    .card form label.error {
+      font-size: 14px;
+      font-weight: normal;
+      color: #ad4254; }
+    .card form label.title {
+      font-size: 18px; }
+    .card form label a {
+      color: #999;
+      font-weight: normal;
+      font-size: 13px;
+      text-decoration: underline;
+      margin-left: 10px; }
+      .card form label a:hover {
+        color: #136eae; }
+  .card form small.extra {
+    display: block;
+    margin: -5px 0 10px;
+    color: #999; }
+  .card form .quantity {
+    display: block;
+    margin: 5px 5px 0 0;
+    font-size: 16px;
+    float: right; }
+  .card form .service {
+    line-height: 50px;
+    border-bottom: 1px dotted #dadada; }
+    .card form .service .toggle-service {
+      color: #403c3b;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      .card form .service .toggle-service:hover {
+        color: #188bdc;
+        text-decoration: none; }
+    .card form .service.clips {
+      line-height: 1.2;
+      padding: 15px 0;
+      border: none; }
+      .card form .service.clips .wrap {
+        margin-top: -14px; }
+    .card form .service small {
+      margin-top: -30px;
+      display: block; }
+    .card form .service:last-child {
+      border: none; }
+    .card form .service .col-sm-3 {
+      max-height: 50px; }
+    .card form .service .check {
+      line-height: 1.5 !important;
+      padding-top: 4px; }
+    .card form .service .reduced {
+      font-size: 14px; }
+    .card form .service .spinner {
+      width: 40px;
+      float: left;
+      margin-top: 10px; }
+    .card form .service .spinner input {
+      text-align: center;
+      height: 30px; }
+    .card form .service .input-group-btn-vertical {
+      margin-top: 10px;
+      position: relative;
+      white-space: nowrap;
+      vertical-align: middle;
+      display: inline-block;
+      float: left; }
+    .card form .service .input-group-btn-vertical > .btn {
+      display: block;
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      padding: 0px 12px;
+      margin-left: -1px;
+      position: relative;
+      border-radius: 0;
+      line-height: 1; }
+      .card form .service .input-group-btn-vertical > .btn:hover {
+        background: #efefef; }
+      .card form .service .input-group-btn-vertical > .btn:focus, .card form .service .input-group-btn-vertical > .btn:active {
+        outline: none;
+        border-color: #ccc;
+        background: white; }
+      .card form .service .input-group-btn-vertical > .btn .glyphicon {
+        font-size: 8px; }
+    .card form .service .input-group-btn-vertical > .btn:first-child {
+      border-top-right-radius: 4px; }
+      .card form .service .input-group-btn-vertical > .btn:first-child .glyphicon {
+        top: -1px; }
+    .card form .service .input-group-btn-vertical > .btn:last-child {
+      margin-top: -2px;
+      border-bottom-right-radius: 4px; }
+      .card form .service .input-group-btn-vertical > .btn:last-child .glyphicon {
+        top: 0; }
+  .card form .dropdown-toggle:active, .card form .dropdown-toggle:active, .card form .dropdown-toggle:focus {
+    outline: none; }
+  .card form .dropdown-menu li {
+    border-bottom: 1px dotted #dadada; }
+    .card form .dropdown-menu li:last-child {
+      border: none; }
+    .card form .dropdown-menu li a {
+      padding: 10px; }
+      .card form .dropdown-menu li a:active, .card form .dropdown-menu li a:active, .card form .dropdown-menu li a:focus {
+        outline: none; }
+  .card form .disclaimer {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0 0; }
+  .card form label {
+    color: #454545;
+    font-weight: 600;
+    border: 1px solid white; }
+    .card form label.error {
+      display: block; }
+    .card form label.button {
+      padding: 10px 20px 10px 30px;
+      font-size: 13px;
+      font-weight: normal;
+      white-space: nowrap; }
+      .card form label.button.ru {
+        padding: 20px 40px; }
+      .card form label.button input[type="radio"] {
+        margin: 4px 0 0 -20px; }
+      .card form label.button:hover {
+        color: #188bdc;
+        cursor: pointer; }
+    .card form label.active {
+      background: #dceefb;
+      border-radius: 4px;
+      border: 1px solid #B6C8D6; }
+      .card form label.active:hover {
+        color: #403c3b; }
+    .card form label small a {
+      color: #999;
+      font-weight: normal;
+      text-decoration: underline;
+      margin-left: 5px; }
+      .card form label small a:hover {
+        color: #333; }
+  .card form .summary_pretty .row, .card form .summary_beautiful .row, .card form .summary_glamorous .row {
+    padding: 10px 0;
+    border-bottom: 1px dotted #dadada; }
+    .card form .summary_pretty .row:last-child, .card form .summary_pretty .row.subtotal_row, .card form .summary_beautiful .row:last-child, .card form .summary_beautiful .row.subtotal_row, .card form .summary_glamorous .row:last-child, .card form .summary_glamorous .row.subtotal_row {
+      border: none; }
+  .card form .summary_pretty .price, .card form .summary_beautiful .price, .card form .summary_glamorous .price {
+    text-align: right; }
+  .card form .trim {
+    width: 55%;
+    float: left; }
+  .card form .ccv {
+    float: left;
+    height: 24px;
+    width: auto;
+    margin: 5px 0 0 6px; }
+  .card form .promo {
+    line-height: 34px;
+    text-align: center;
+    color: #999; }
+    .card form .promo:hover {
+      color: #999;
+      text-decoration: underline; }
+      .btn-active
+      {
+         background-color: #f7e7f0;
+          border: 1px solid #d1a5bf;
+      }
+       .header {
+  border: none; }
+  .header .close {
+    font-size: 32px;
+    opacity: 1;
+    color: #555; }
+    .header .close:hover {
+      opacity: 1;
+      color: black; }
+ .modal-body {
+  padding: 0 10%; }
+  .modal-body h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center; }
+  .modal-body h4 {
+    font-weight: bold;
+    font-size: 20px; }
+  .modal-body p {
+    font-size: 16px;
+    margin-bottom: 30px; }
+    .modal .modal-body p:last-child {
+      margin-bottom: 50px; }
+      .active1
+      {
+        color: red;
+      }
+
+@media screen and (max-width: 767px) {
+      .booking {
+    padding: 0;
+    background: white; }
+
+  .container.outer {
+    padding: 0; }
+
+  .card {
+    padding: 30px 0;
+    border-radius: 0;
+    overflow: hidden;
+    margin: 0; }
+    .card form .check {
+      margin: -20px 0 0 0 !important; }
+    .card form label.button {
+      padding-left: 40px; }
+      .card form label.button input[type="radio"] {
+        margin: 1px 0 0 -25px; }
+    .card form.thank-you legend {
+      margin-top: 0; }
+    .card form input[type="date"] {
+      width: 100%;
+      -webkit-appearance: textfield; }
+    .card form label .quantity {
+      margin-right: 0; }
+    .card form label.title {
+      font-size: 16px; }
+    .card form .first, .card form .last {
+      padding: 0 15px; }
+    .card form .first {
+      margin-bottom: 20px; }
+    .card form .last.text-center {
+      padding-left: 0; }
+    .card form .form-group {
+      margin-bottom: 20px;
+      overflow-x: hidden; }
+    .card form .radio.box {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 5px; }
+      .card form .radio.box label {
+        text-align: left;
+        padding: 10px 15px; }
+        .card form .radio.box label em {
+          display: inline-block;
+          margin-left: 5px; }
+    .card form .service {
+      line-height: 1;
+      padding: 15px 0 0;
+      margin-bottom: 30px;
+      border: none; }
+      .card form .service small {
+        margin-top: 0; }
+      .card form .service .col-sm-3 {
+        max-height: 300px; }
+      .card form .service .col-sm-9 {
+        line-height: 1.1; }
+      .card form .service .wrap {
+        display: block; }
+      .card form .service .spinner {
+        float: none;
+        width: 100%;
+        position: relative;
+        display: block; }
+        .card form .service .spinner input {
+          text-align: center;
+          height: 30px;
+          position: absolute;
+          right: 0;
+          width: 36px;
+          margin: -36px 0 0 0; }
+      .card form .service label small {
+        display: block; }
+      .card form .service .input-group-btn-vertical {
+        display: block;
+        width: 100%;
+        margin-top: -1px; }
+        .card form .service .input-group-btn-vertical > .btn, .card form .service .input-group-btn-vertical .btn:active, .card form .service .input-group-btn-vertical .btn:focus, .card form .service .input-group-btn-vertical .btn:hover {
+          float: left;
+          width: 50%;
+          padding: 10px 12px;
+          margin-left: 0;
+          background-color: #ffffff;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dadada));
+          background-image: -webkit-linear-gradient(top, #ffffff, #dadada);
+          background-image: -moz-linear-gradient(top, #ffffff, #dadada);
+          background-image: -ms-linear-gradient(top, #ffffff, #dadada);
+          background-image: -o-linear-gradient(top, #ffffff, #dadada);
+          background-image: linear-gradient(to bottom, #ffffff, #dadada);
+          border: 1px solid #ccc; }
+          .card form .service .input-group-btn-vertical > .btn.active, .card form .service .input-group-btn-vertical .btn:active.active, .card form .service .input-group-btn-vertical .btn:focus.active, .card form .service .input-group-btn-vertical .btn:hover.active {
+            background: #efefef;
+            border-color: #ccc; }
+          .card form .service .input-group-btn-vertical > .btn:first-child, .card form .service .input-group-btn-vertical .btn:active:first-child, .card form .service .input-group-btn-vertical .btn:focus:first-child, .card form .service .input-group-btn-vertical .btn:hover:first-child {
+            float: right;
+            border-radius: 0 0 4px 0;
+            margin: 0; }
+          .card form .service .input-group-btn-vertical > .btn:last-child, .card form .service .input-group-btn-vertical .btn:active:last-child, .card form .service .input-group-btn-vertical .btn:focus:last-child, .card form .service .input-group-btn-vertical .btn:hover:last-child {
+            border-radius: 0 0 0 4px;
+            margin: 0;
+            border-right: none; }
+          .card form .service .input-group-btn-vertical > .btn .glyphicon, .card form .service .input-group-btn-vertical .btn:active .glyphicon, .card form .service .input-group-btn-vertical .btn:focus .glyphicon, .card form .service .input-group-btn-vertical .btn:hover .glyphicon {
+            font-size: 1em;
+            top: 0 !important; }
+}
+
+
+
+
+
+.active1
+      {
+        color: red;
+      }
+      .active2
+      {
+      background-color:blue;
+      }

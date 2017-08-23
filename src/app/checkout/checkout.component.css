@@ -1,0 +1,205 @@
+                              .background {
+                              
+                                  background: #efe3ea url(/assets/images/andy-treatment4.jpg) 50% 20% no-repeat;
+                                  /*background-size: cover;
+                                  position: fixed;
+                                  display: block;
+                                  top: 0;
+                                  bottom: 0;
+                                  left: 0;
+                                  right: 0;
+                                  z-index: -1;*/
+                                    background-repeat: no-repeat;
+
+                                  background-position: center center;
+                                  background-attachment: fixed;
+
+                                  -webkit-background-size: cover;
+                                  -moz-background-size: cover;
+
+                                  -o-background-size: cover;
+                                  background-size: 100% 100%;
+
+                                  height:100%;
+                              }
+                              .progression {
+                                list-style: none;
+                                margin: 0;
+                                padding: 0;
+                                display: table;
+                                table-layout: fixed;
+                                width: 600px;
+                                color: #9b9b9b;
+                                position: absolute;
+                                left: 50%;
+                                margin-left: -300px;
+                                top: 15px; }
+                                .progression > li {
+                                  position: relative;
+                                  display: table-cell;
+                                  text-align: center;
+                                  font-size: 0.8em; }
+                                  .progression > li a {
+                                    color: #403c3b;
+                                    font-weight: normal; }
+                                  .progression > li:before {
+                                    content: attr(data-step);
+                                    display: block;
+                                    margin: 0 auto;
+                                    background: #efefef;
+                                    width: 3em;
+                                    height: 3em;
+                                    text-align: center;
+                                    margin-bottom: 0.25em;
+                                    line-height: 2.5em;
+                                    border-radius: 100%;
+                                    position: relative;
+                                    z-index: 2;
+                                    border: 3px solid white; }
+                                  .progression > li:after {
+                                    content: "";
+                                    position: absolute;
+                                    display: block;
+                                    background: #efefef;
+                                    width: 100%;
+                                    height: 3px;
+                                    top: 1.3em;
+                                    left: 50%;
+                                    margin-left: 1.5em\9;
+                                    z-index: 1; }
+                                  .progression > li:last-child:after {
+                                    display: none; }
+                                  .progression > li.is-complete {
+                                    color: #403c3b; }
+                                    .progression > li.is-complete:before, .progression > li.is-complete:after {
+                                      color: #fff;
+                                      background: #403c3b; }
+                                  .progression > li.is-active a {
+                                    font-weight: bold;
+                                    font-family: "montserratsemi_bold";
+                                    color: #403c3b; }
+                                  .progression > li.is-active:before {
+                                    color: #FFF;
+                                    background: #403c3b; }
+                                .progression .progress__last:after {
+                                  display: none !important; }
+                                .progression .progress--large {
+                                  font-size: 2em; }
+
+                                  header .navbar {
+                                background: white;
+                                margin: 0;
+                                border: none; }
+                                header .navbar .navbar-header .navbar-brand {
+                                  background: transparent url("/assets/images/logo-2x.jpg") center center no-repeat;
+                                  background-size: auto 32px;
+                                  width: 200px;
+                                  height: 90px;
+                                  text-indent: -9999px; }
+                                header .navbar .navbar-nav li a {
+                                  line-height: 90px;
+                                  padding: 0 20px; }
+
+                              .booking {
+                                padding: 3em 0;
+                                min-height: 580px;
+                                position: relative; }
+                                pull-right {
+                                  float: right!important;
+                              }
+
+
+                              @media screen and (max-width: 767px) {
+                                  .menubar {
+                                  background: url(/assets/images/menubar-bg.gif) 50% 50% no-repeat;
+                                  background-size: cover;
+                                  height: 24px;
+                                  overflow: hidden;
+                              }
+                                header .navbar .navbar-nav {
+                                  margin-top: 0; }
+
+                                ul.mobile-status {
+                                  list-style: none;
+                                  overflow: hidden;
+                                  width: auto;
+                                  margin: 0;
+                                  padding: 0;
+                                  display: inline-block !important; }
+
+                                ul.mobile-status li {
+                                  float: left;
+                                  white-space: nowrap; }
+                                  ul.mobile-status li.step-1 a {
+                                    padding-left: 15px; }
+                                  ul.mobile-status li.step-4 a {
+                                    padding-right: 25px; }
+                                    ul.mobile-status li.step-4 a:after {
+                                      border: none; }
+                                  ul.mobile-status li.fill a {
+                                    background: #333; }
+                                    ul.mobile-status li.fill a:after {
+                                      border-left-color: #333; }
+
+                                ul.mobile-status li a {
+                                  color: white;
+                                  text-decoration: none;
+                                  padding: 3px 0 3px 56px;
+                                  background: #999;
+                                  position: relative;
+                                  display: block;
+                                  float: left;
+                                  font-size: 13px;
+                                  font-weight: normal; }
+
+                                ul.mobile-status li a:after {
+                                  content: " ";
+                                  display: block;
+                                  width: 0;
+                                  height: 0;
+                                  border-top: 50px solid transparent;
+                                  border-bottom: 50px solid transparent;
+                                  border-left: 30px solid #999;
+                                  position: absolute;
+                                  top: 50%;
+                                  margin-top: -50px;
+                                  left: 100%;
+                                  z-index: 2; }
+
+                                ul.mobile-status li a:before {
+                                  content: " ";
+                                  display: block;
+                                  width: 0;
+                                  height: 0;
+                                  border-top: 50px solid transparent;
+                                  border-bottom: 50px solid transparent;
+                                  border-left: 30px solid white;
+                                  position: absolute;
+                                  top: 50%;
+                                  margin-top: -50px;
+                                  margin-left: 1px;
+                                  left: 100%;
+                                  z-index: 1; }
+
+                                .navbar-header {
+                                  text-align: center; }
+
+                                .navbar-brand {
+                                  float: none;
+                                  display: inline-block;
+                                  margin-left: -15px; }
+
+                                .booking {
+                                  padding: 0;
+                                  background: white; }
+                              }
+                              @media screen and (max-width: 997px)
+                              {
+                              .progression {
+                                  width: 420px;
+                                  margin-left: -180px;
+                              }
+                              .progression > li {
+                                  font-size: 10px;
+                              }
+                              }

@@ -1,0 +1,132 @@
+.footer.dark .bucket ul.social-media li a:hover {
+    opacity: 0.8;
+}
+
+.footer.dark .bucket ul.social-media li.facebook a {
+    background-image: url(/assets/images/facebook-icon.png);
+}
+.footer.dark .bucket ul.social-media li.twitter a {
+    background-image: url(/assets/images/twitter-icon.png);
+}
+.footer.dark .bucket ul.social-media li.pinterest a {
+    background-image: url(/assets/images/pinterest-icon.png);
+}
+.footer.dark .bucket ul.social-media li.instagram a {
+    background-image: url(/assets/images/instagram-icon.png);
+}
+.footer.dark .bucket ul.social-media li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+}
+.footer.dark .bucket ul.social-media li {
+    float: left;
+    margin: 0 10px;
+}
+.footer.dark .bucket ul.social-media {
+    list-style-type: none;
+    margin: 0 0 50px;
+    display: inline-block;
+}
+#menu-item-9033 a {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+}
+.footer.dark .bucket a {
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.footer .copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .bucket ul a {
+    font-size: 14px;
+}
+footer.dark {
+    background: #772F3C;
+    color: white;
+}
+.footer .bucket {
+    margin-bottom: 2em;
+    text-align:center;
+}
+.footer.dark .bucket ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.footer .bucket ul li {
+    margin-bottom: 10px;
+}
+.footer .outter-footer {
+    background: #6b202d;
+}
+.footer .brand {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16px;
+    height: 32px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer .copyright {
+    margin: 2em 0;
+    font-size: 13px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer .bucket h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer {
+    margin-top: 0;
+    padding-bottom: 0;
+    border: none;
+}
+@media (max-width: 767px)
+{
+
+.hidden-xs
+{
+    display:block;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+.footer.dark .bucket ul.social-media li {
+    float: left;
+    margin: 0 3px;
+}
+.footer.dark .bucket ul.social-media {
+    list-style-type: none;
+    margin: 0 0 50px;
+    display: inline-block;
+}
+}
+@media (min-width: 768px)
+{
+  
+.hidden-xs
+{
+    display:block;
+}
+
+}

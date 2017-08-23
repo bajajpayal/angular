@@ -1,0 +1,244 @@
+header .macys-nav {
+    background: #333;
+    color: #efefef;
+    border-radius: 0;
+    height: 50px;
+    border: none;
+    line-height: 49px;
+}
+
+header .navbar {
+    background: white;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+header .navbar .navbar-nav.utility li a {
+    line-height: 1.2;
+    padding: 10px 15px 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+header .navbar .navbar-nav li a {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #777777;
+}
+
+a:link, a:visited:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+header .navbar .navbar-header .navbar-brand {
+    background: transparent url(/assets/images/logo-2x.jpg) center center no-repeat;
+    background-size: auto 32px;
+    width: 200px;
+    height: 100px;
+    text-indent: -9999px;
+}
+
+
+header .navbar .navbar-nav.primary {
+    margin: 30px 0 0 -5% !important;
+}
+
+header .navbar .navbar-nav.primary {
+    margin: 30px 0 0 -20%;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #772F3C;
+}
+.navbar .navbar-nav li a{
+    font-size: 16px;
+}
+
+.visible-xs {
+    display: none !important;
+}
+.navbar-inverse {
+    background-color: #222222;
+    border-color: #080808;
+}
+header .navbar {
+    background: white;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #dddddd;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e6e6e6;
+}
+header .navbar .navbar-nav.utility {
+    float: right;
+    margin-top: 10px;
+}
+header .navbar .navbar-nav.utility li {
+    float: none;
+}
+header .navbar .navbar-nav.utility li a {
+    line-height: 1.2;
+    padding: 10px 15px 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+header .navbar .navbar-nav li a {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777777;
+}
+@media (min-width: 768px)
+{
+.navbar {
+    border-radius: 4px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-nav > li {
+    float: left;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-header {
+    float: left;
+}
+container > .navbar-header, .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button{
+    background-image: none;
+}
+.navbar > .container .navbar-brand {
+    margin-left: -15px;
+}
+.container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+
+.navbar-right {
+    float: right !important;
+}
+
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
+.navbar-collapse {
+    max-height: 340px;
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)
+{
+header .container {
+    position: relative;
+}
+header .navbar .navbar-collapse .navbar-nav.utility {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin: 0;
+}
+header .navbar .navbar-collapse .navbar-nav.utility li {
+    float: left;
+}
+header .navbar .navbar-collapse .navbar-nav li a {
+    padding: 15px;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 767px)
+{
+header .navbar .navbar-collapse .navbar-nav li a {
+    padding: 12px;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #4A4A4A;
+}
+
+.navbar-nav > li {
+    float: left;
+    width:50%;
+    text-align:center;
+}
+ .navbar-nav li a {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 300;
+}
+}

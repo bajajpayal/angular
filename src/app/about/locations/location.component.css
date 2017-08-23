@@ -1,0 +1,59 @@
+.groups.hero h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 360px;
+    color: white;
+    text-transform: none;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+
+
+.groups.hero {
+    height: 360px;
+    max-height: 360px;
+    min-height: 160px;
+}
+
+.hero {
+    min-height: 420px;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 0;
+    z-index: 1;
+    position: relative;
+}
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+
+.locations {
+    background: white;
+}
+.locations ul.cities {
+    list-style-type: none;
+    margin: 0 0 50px;
+    padding: 0;
+    display: inline-block;
+    width: 150px;
+}
+.locations ul.cities li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.locations h3 {
+    font-size: 22px;
+    color: #4A4A4A;
+    font-weight: regular;
+    font-family: "montserratregular", sans-serif;
+}
+section {
+    padding: 4em 0;
+}

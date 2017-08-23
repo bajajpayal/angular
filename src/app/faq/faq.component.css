@@ -1,0 +1,49 @@
+.long-faq {
+    background: white url(/assets/images/tall-faq.jpg) right top no-repeat;
+    background-size: 1000px 1783px;
+}
+
+section {
+    padding: 4em 0;
+}
+.panel-group {
+    margin-bottom: 3em;
+}
+.collapse {
+    display: none;
+}
+body p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    line-height: 1.7;
+    font-weight: 100;
+}
+.panel-group .panel {
+    border-radius: 2px;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.panel-group .panel .panel-heading {
+    background: white;
+}
+
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+}
+
+.panel-group .panel-heading {
+    border-bottom: 0;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+p {
+    margin: 0 0 10px;
+}

@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "montserratlight", sans-serif;
+    font-size: 16px;
+    background: #fdf6f3;
+}
+body h1, body h2, body h3, body h4, body legend {
+    font-family: "montserratlight", sans-serif;
+    color: #4A4A4A;
+    margin-bottom: 1.5em;
+    font-weight: 100;
+}
+body p {
+    font-size: 1em;
+       color: #4A4A4A;
+    margin-bottom: 1.5em;
+    line-height: 1.7;
+    font-weight: 100;
+}
+.glyphicon
+{
+ color: #772F3C;   
+}
+a:link, a:visited:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+ a {
+    color: #772F3C;
+}
+ a:hover {
+    text-decoration: underline;
+    color: #772F3C;
+}
+body h1, body h2, body h3, body h4 {
+    font-family: "montserratlight", sans-serif;
+    color: #4A4A4A;
+  
+}
+body h1.smallheadline, body h2.smallheadline, body h3.smallheadline, body h4.smallheadline, body legend.smallheadline {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
+.section2,.section3,.section4,.section5,.section6
+{
+    margin-top:5%;
+    margin-bottom: 5%;
+    
+}
+p {
+    margin: 0 0 10px;
+}
+.btn-primary:hover {
+    background: #6b202d;
+    border-color: #6b202d;
+}
+.btn-primary {
+    background: #6b202d;
+    
+}

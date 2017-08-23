@@ -1,0 +1,32 @@
+.about .well {
+    padding-top: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+        min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+        border-radius: 4px;
+}
+.bar {
+    transition: all 0.5s ease-in-out;
+    top: 0;
+}
+.bar a {
+    color: #4A4A4A;
+    font-weight: 300;
+}
+.about .well h3 {
+    margin: 0 0 20px;
+}
+.about .well ul li {
+    margin-bottom: 10px;
+}
+.about .well ul li  a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}

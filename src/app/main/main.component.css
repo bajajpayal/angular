@@ -1,0 +1,292 @@
+blockquote {
+    display: block;
+    border-radius: 2px;
+    padding: 0 15px;
+    font-style: italic;
+    border: none;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 30px;
+    clear: both;
+}
+.panel-group .panel .panel-heading .panel-title {
+    padding: 4px 0;
+}
+.hidden-xs
+    {
+       display: block !important; 
+    }
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+     font-family: "montserratlight", sans-serif;
+}
+
+.panel-group .panel .panel-collapse .panel-body {
+     font-family: "montserratlight", sans-serif;
+    border-top: 1px dotted #efefef;
+    background: white;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 15px 15px;
+    text-shadow: none;
+    color: #4A4A4A;
+}
+blockquote small {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #4A4A4A;
+    font-family: "Open Sans", sans-serif;
+}
+blockquote small em{
+        white-space: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+}
+.thumbnail {
+    position: relative;
+    height: 130px;
+    width: auto;
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px solid #f7dcd0;
+    margin: 0 0 20px;
+}
+.img-circle {
+    border-radius: 50% !important;
+}
+
+.section5 {
+    background: white url(/assets/images/faq-bg.jpg) right top no-repeat;
+    background-size: auto 100%;
+}
+.panel-group .panel {
+    border-radius: 2px;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+.panel-group .panel .panel-heading .panel-title a {
+    font-size: 1em;
+    line-height: 1.5;
+    text-shadow: none;
+    font-weight: normal;
+}
+.panel-group .panel .panel-heading .panel-title {
+    padding: 4px 0;
+}
+.phone {
+    margin-top: 0px;
+    height: 320px;
+    width: auto;
+}
+.collapse {
+    display: none;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.bgmain .input-group {
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    width: 100%;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.bgmain .tight {
+    padding: 0;
+      height: 50px;
+} .input-group-btn button {
+    height: 50px;
+    font-size: 14px;
+    border-radius: 0 4px 4px 0;
+}
+
+.input-group-btn > .btn:hover, .input-group-btn > .btn:active {
+    z-index: 2;
+}
+.bgmain .form-group input, .bgmain .form-group select {
+    border-right: 0;
+    height: 50px;
+}
+  section.darkPink {
+    background: #F2CDC1;
+}
+.section3 {
+    padding: 10px 0px 0px 0px !important;
+}
+
+.section3 {
+    text-align: left;
+    background: #eeedeb;
+    padding: 30px 0px 0px 0px !important;
+}
+.section3 h1
+{
+        font-size: 30px;
+   
+    font-weight: 100;
+
+}
+.col2
+{
+    margin:0 0 5% 0;
+}
+    .logos
+    {
+        padding: 1.5em 0;
+    border-top: 1px solid #eebcac;
+    border-bottom: 1px solid #eebcac;
+  }
+.row {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+div.navbar-collapse.collapse {
+    	display: block;
+    	overflow: hidden;
+    	max-height: 0px;
+    	-webkit-transition: max-height .3s ease;
+    	-moz-transition: max-height .3s ease;
+    	-o-transition: max-height .3s ease;
+    	transition: max-height .3s ease;
+    }
+    div.navbar-collapse.collapse.in {
+    	max-height: 2000px;
+    }
+
+ .ut{
+    float: right  !important;
+    margin-top: 10px;
+    margin-left:40px;
+    
+}
+.ut li a:hover {
+    color: #772F3C;
+}
+.ut li a{
+    font-size: 16px;
+    color: #777;
+}
+
+@media (max-width: 767px)
+
+{
+    .bgmain h1
+ {
+         margin: 10% 0  0 0;
+         font-family: "montserratlight", sans-serif;
+    font-size: 44px;
+    line-height: 1.3;
+    font-weight: bold;
+        color: #4A4A4A;
+
+ }
+ .bgmain h2
+ {
+        
+    color: #4A4A4A;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left:  6%;
+ }
+    .bgmain
+    {
+        padding: 3em 0 0;
+    background: white url(/assets/images/hero-bg-mobile.jpg) center center no-repeat !important;
+    background-size: cover !important;
+    min-height: 480px;
+    height: auto;
+    text-align: center;
+    }
+    .hidden-xs
+    {
+       display: none !important; 
+    }
+      .hidden-sm
+    {
+       display: none !important; 
+    }
+}  
+
+@media (min-width: 768px)
+{
+  
+
+
+
+  .bgmain
+{
+    min-height: 480px;
+    background: url(/assets/images/hero-bg-v4-1.jpg) 50% 0% no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    text-align:center;
+}
+ .bgmain h1
+ {
+         margin: 20% 0  0 0;
+         font-family: "montserratlight", sans-serif;
+    font-size: 44px;
+    line-height: 1.3;
+    font-weight: bold;
+        color: #4A4A4A;
+
+ }
+ .bgmain h2
+ {
+        
+    color: #4A4A4A;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left:  27%;
+ }
+ 
+.col1
+{
+    margin:6% 0 0 10%;
+}
+
+
+  #menu-top-nav
+  {
+    margin-top:3%;
+  }
+
+}
+.visible-xs {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)
+{
+.ut {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin: 0;
+}
+  .bgmain
+{
+    min-height: 300px;
+    background: url(/assets/images/hero-bg-v4-1.jpg) 50% 0% no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    text-align:center;
+}
+}

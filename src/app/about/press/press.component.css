@@ -1,0 +1,110 @@
+section .card {
+  
+    background: white;
+    border: 1px solid #f9e6dd;
+}
+.main-content .card header {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.main-content .card header .overlay {
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+.main-content .card header .overlay h1 {
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    line-height: 260px;
+    margin: 0;
+    border: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.main-content .card article, .main-content .card .inner {
+    padding: 60px;
+}
+.press-hits .card article {
+    padding: 10px 20px 10px 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.press-hits .card article table {
+    border: none;
+}
+
+.press-hits .card article table td {
+    border: none;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+table td[class*="col-"], table th[class*="col-"] {
+    float: none;
+    display: table-cell;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.press-hits .card article h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+.press-hits .card article small {
+    display: block;
+    text-align: left;
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px)
+{
+
+ul.footer-bucket {
+    background: #fdf6f3;
+    overflow: auto;
+    padding: 10px 0;
+}
+ ul.footer-bucket li {
+    float: left;
+    width: 50%;
+    
+    text-align: center;
+        font-size: 14px;
+}
+  ul.footer-bucket li a {
+    padding: 8px 0;
+    display: block;
+    color: #4A4A4A;
+}
+
+}

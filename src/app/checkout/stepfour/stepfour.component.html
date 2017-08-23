@@ -1,0 +1,141 @@
+<section class="booking">
+				<div class="background gradient"></div>
+				<div class="container outer">
+					<div class="row">
+						<div class="col-sm-8 col-md-6 col-md-offset-2 col-lg-5 col-lg-offset-2">
+							<div class="card">
+								<div class="container-fluid">
+									<form action="thank-you.html" id="booking" method="POST">
+										<legend>Check Out</legend>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-sm-12 radio">
+													<label for="default_card" class="button ru active">
+														<input type="radio" name="default_card" id="default_card" value="card1" checked>
+														Visa card ending in <strong>4642</strong>
+													</label>
+												</div>
+												<div class="col-sm-12 radio">
+													<label for="card2" class="button ru">
+														<input type="radio" name="default_card" id="card2" value="card2">
+														Mastercard ending in <strong>8820</strong>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="or"><span>or</span></div>
+										<a class="btn btn-lg btn-default btn-block" id="toggle_new_card"><i class="glyphicon glyphicon-plus"></i> Use a new card</a>
+										<br class="visible-xs"><br class="visible-xs">
+										<hr style="border-color: white" class="hidden-xs">
+
+										<!-- Begin Hide / Show container -->
+										<div id="new_card" style="display: none">
+											<div class="form-group">
+												<label for="card_name">Name on card</label>
+												<input type="text" id="card_name" name="card_name" class="form-control" autofocus>
+											</div>
+											<div class="form-group">
+												<label for="card_number">Credit card number</label>
+												<input type="tel" id="card_number" name="card_number" class="form-control">
+											</div>
+											<div class="form-group">
+												<div class="row">
+													<div class="col-sm-5 first">
+														<label for="expiration">Expiration date</label>
+														<input type="tel" id="expiration" name="expiration" class="form-control" placeholder="MM / YY">
+													</div>
+													<div class="col-sm-7 last">
+														<label for="ccv">Security code</label>
+														<input id="ccv" name="ccv" type="tel" class="form-control trim" maxlength="4">
+														<img class="ccv" src="img/ccv.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="row">
+													<div class="col-xs-6 col-sm-5 first">
+														<label for="billing_zip">Billing ZIP</label>
+														<input type="tel" id="billing_zip" name="billing_zip" class="form-control">
+													</div>
+													<div class="col-xs-6 col-sm-7 last text-center">
+														<label for="">&nbsp;</label>
+														<a class="promo" id="toggle_promo">Enter promo code</a>
+														<div class="input-group" id="promo_code_container" style="display: none">
+															<input type="text" name="promocode" class="form-control" id="promocode" placeholder="Enter code">
+															<span class="input-group-addon"><a id="apply_code">Apply</a></span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- end of hide / show container -->
+										<div class="widget slim visible-xs">
+											<h3>Order Summary</h3>
+											<ul>
+												<li>Oct. 23, 2015 @ 6:30PM</li>
+												<li>Beautiful Blowout (1)</li>
+												<li>Beautiful Glam Makeup (1)</li>
+												<li>1355 Market St, Suite 488</li>
+												<li>San Francisco, CA 94102</li>
+											</ul>
+											<table class="subtotal table">
+												<tbody>
+													<tr>
+														<td>Subtotal:</td>
+														<td>$165.00</td>
+													</tr>
+													<tr>
+														<td>18% gratuity:</td>
+														<td>$29.70</td>
+													</tr>
+													<tr>
+														<td><strong>TOTAL:</strong></td>
+														<td>$194.70</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="widget slim text-center visible-xs">
+											<img class="img-inline secure" src="img/secure-icon.png" alt="">
+											<span>Your order is SSL secure.</span>
+										</div>
+										<button class="btn btn-lg btn-primary btn-block">Confirm Payment</button>
+										<div class="text-center"><a href="step-3.html" class="back">&larr; Back</a></div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 col-lg-4 hidden-xs sidebar">
+							<div class="card widget">
+								<h3>Order Summary</h3>
+								<ul>
+									<li>Oct. 23, 2015 @ 6:30PM</li>
+									<li>Beautiful Blowout (1)</li>
+									<li>Beautiful Glam Makeup (1)</li>
+									<li>1355 Market St, Suite 488</li>
+									<li>San Francisco, CA 94102</li>
+								</ul>
+								<table class="subtotal table">
+									<tbody>
+										<tr>
+											<td>Subtotal:</td>
+											<td>$165.00</td>
+										</tr>
+										<tr>
+											<td>18% gratuity:</td>
+											<td>$29.70</td>
+										</tr>
+										<tr>
+											<td><strong>TOTAL:</strong></td>
+											<td>$194.70</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="card widget text-center">
+								<img class="img-inline secure" src="img/secure-icon.png" alt="">
+								<span>Your order is SSL secure.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
